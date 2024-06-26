@@ -14,7 +14,7 @@ def inference_chat(chat, API_TOKEN):
     }
 
     data = {
-        "model": 'gpt-4-vision-preview',
+        "model": 'gpt-4o',
         "messages": [],
         "max_tokens": 2048,
     }
