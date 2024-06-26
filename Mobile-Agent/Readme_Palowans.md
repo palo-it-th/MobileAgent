@@ -6,7 +6,12 @@
 ## Prerequisites:
 
 - Python v3.10.6 installed on your system. You can download and install Python from the [official Python website](https://www.python.org/downloads/).
-- For developers using Apple Silicon (M1 or above) CPUs, it is necessary to update the TensorFlow version in the `requirements.txt` file to `tensorflow-macos==2.9.1`.
+- For developers using **Apple Silicon** (M1 or above) CPUs, it is necessary to update the TensorFlow version in the `requirements.txt` file:
+
+  ```
+  tensorflow-macos==2.9.1
+  // Changed from TensorFlow==2.9.1
+  ```
 
   > Reference issue: https://github.com/X-PLUG/MobileAgent/issues/4
 
